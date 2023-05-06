@@ -1,8 +1,7 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
-import homeimg from '../Images/homepageimg.avif'
+import { NavLink } from 'react-router-dom';
 
-const Same=(props)=>{
+const Same = (props)=>{
     return(
         <>
      <div className="mainsection">

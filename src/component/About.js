@@ -1,12 +1,11 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
-import aboutusimg from '../Images/aboutus.avif'
-import Same from './Same'
+import Same from './Same';
+import aboutusimg from '../Images/aboutus.avif';
 
-const About=()=>{
-    return(
-        <>
-        <Same
+const About = () => {
+  return (
+    <>
+      <Same
         title="Know More About Us"
         text="Welcome to our course app! We are a team of experienced developers and educators who are passionate about teaching the latest skills in web development, front-end design, and full-stack development. Our courses are designed to provide students with the knowledge and expertise they need to succeed in the fast-paced world of tech.
 
@@ -17,8 +16,9 @@ const About=()=>{
         Thank you for considering our course app as your partner in learning. We look forward to hearing from you soon!"
         imgsrc={aboutusimg}
         btn="Know More"
-    />
-        </>
-    )
-}
+      />
+    </>
+  );
+};
+
 export default About;
